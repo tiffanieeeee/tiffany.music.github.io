@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightpink;
+}
+h1{
+  background-color: aliceblue;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.album {
+    margin-bottom: 20px;
+}
+
+.album .image {
+    max-width: 100%;
+    height: 300px;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin: 5px 0;
+}
